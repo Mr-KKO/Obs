@@ -1,6 +1,6 @@
 {
     "name": "kko/obs",
-    "description": "huaweicloud OBS",
+    "description": "huaweicloud OBS SDK",
     "license": "MIT",
     "autoload": {
         "psr-4": {
