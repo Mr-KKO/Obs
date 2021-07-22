@@ -15,11 +15,11 @@
  *
  */
 
-namespace Obs\Internal\Common;
+namespace Kko\Obs\Internal\Common;
 
 use Psr\Http\Message\StreamInterface;
 use GuzzleHttp\Psr7\StreamDecoratorTrait;
-use Obs\ObsException;
+use Kko\Obs\ObsException;
 
 class CheckoutStream implements StreamInterface {
     use StreamDecoratorTrait;

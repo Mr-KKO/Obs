@@ -15,7 +15,7 @@
  *
  */
 
-namespace Obs\Internal\Resource;
+namespace Kko\Obs\Internal\Resource;
 
 class Constants {
     const ALLOWED_RESOURCE_PARAMTER_NAMES = [ 

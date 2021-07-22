@@ -15,7 +15,7 @@
  *
  */
 
-namespace Obs\Log;
+namespace Kko\Obs\Log;
 
 class ObsConfig
 {

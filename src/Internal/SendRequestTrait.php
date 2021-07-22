@@ -15,23 +15,23 @@
  *
  */
 
-namespace Obs\Internal;
+namespace Kko\Obs\Internal;
 
 use GuzzleHttp\Psr7;
-use Obs\Log\ObsLog;
+use Kko\Obs\Log\ObsLog;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\ConnectException;
-use Obs\Internal\Common\Model;
-use Obs\Internal\Resource\V2Constants;
-use Obs\ObsException;
-use Obs\Internal\Signature\V4Signature;
-use Obs\Internal\Signature\DefaultSignature;
+use Kko\Obs\Internal\Common\Model;
+use Kko\Obs\Internal\Resource\V2Constants;
+use Kko\Obs\ObsException;
+use Kko\Obs\Internal\Signature\V4Signature;
+use Kko\Obs\Internal\Signature\DefaultSignature;
 use GuzzleHttp\Client;
-use Obs\Internal\Resource\Constants;
+use Kko\Obs\Internal\Resource\Constants;
 use Psr\Http\Message\StreamInterface;
-use Obs\Internal\Resource\V2RequestResource;
+use Kko\Obs\Internal\Resource\V2RequestResource;
 
 trait SendRequestTrait
 {

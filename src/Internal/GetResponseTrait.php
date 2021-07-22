@@ -15,16 +15,16 @@
  *
  */
 
-namespace Obs\Internal;
+namespace Kko\Obs\Internal;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
-use Obs\ObsException;
-use Obs\Internal\Common\Model;
-use Obs\Internal\Resource\Constants;
-use Obs\Log\ObsLog;
+use Kko\Obs\ObsException;
+use Kko\Obs\Internal\Common\Model;
+use Kko\Obs\Internal\Resource\Constants;
+use Kko\Obs\Log\ObsLog;
 use Psr\Http\Message\StreamInterface;
-use Obs\Internal\Common\CheckoutStream;
+use Kko\Obs\Internal\Common\CheckoutStream;
 
 trait GetResponseTrait
 {

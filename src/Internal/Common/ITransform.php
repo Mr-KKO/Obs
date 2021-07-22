@@ -15,7 +15,7 @@
  *
  */
 
-namespace Obs\Internal\Common;
+namespace Kko\Obs\Internal\Common;
 
 interface ITransform {
     public function transform($sign, $para);

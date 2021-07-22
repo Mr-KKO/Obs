@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-namespace Obs\Internal\Common;
+namespace Kko\Obs\Internal\Common;
 
 class Model implements \ArrayAccess, \IteratorAggregate, \Countable, ToArrayInterface
 {

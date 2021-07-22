@@ -14,7 +14,7 @@
  *
  */
 
-namespace Obs\Internal\Resource;
+namespace Kko\Obs\Internal\Resource;
 
 class V2RequestResource {
     public static $RESOURCE_ARRAY = [ 

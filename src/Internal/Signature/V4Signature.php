@@ -15,9 +15,9 @@
  *
  */
 
-namespace Obs\Internal\Signature;
+namespace Kko\Obs\Internal\Signature;
 
-use Obs\Internal\Common\Model;
+use Kko\Obs\Internal\Common\Model;
 
 class V4Signature extends AbstractSignature
 {

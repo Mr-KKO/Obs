@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-namespace Obs\Internal\Common;
+namespace Kko\Obs\Internal\Common;
 
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\LazyOpenStream;

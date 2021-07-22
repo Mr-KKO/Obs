@@ -15,12 +15,12 @@
  *
  */
 
-namespace Obs\Internal\Signature;
+namespace Kko\Obs\Internal\Signature;
 
 
-use Obs\Internal\Resource\Constants;
-use Obs\Internal\Common\Model;
-use Obs\Internal\Resource\V2Constants;
+use Kko\Obs\Internal\Resource\Constants;
+use Kko\Obs\Internal\Common\Model;
+use Kko\Obs\Internal\Resource\V2Constants;
 
 class DefaultSignature extends AbstractSignature
 {

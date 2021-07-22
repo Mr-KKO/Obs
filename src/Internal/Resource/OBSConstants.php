@@ -15,7 +15,7 @@
  *
  */
 
-namespace Obs\Internal\Resource;
+namespace Kko\Obs\Internal\Resource;
 
 class OBSConstants extends Constants {
     const FLAG = 'OBS';
